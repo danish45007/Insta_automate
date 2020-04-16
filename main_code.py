@@ -77,14 +77,14 @@ def click_to_follow(browser):
         except:
             pass
 
-# new_user = "https://www.instagram.com/goodgirlipsi/"
+# new_user = "https://www.instagram.com/therock/"
 # browser.get(new_user)
 # click_to_follow(browser)
 
 ## Scraping Content from a Post
 
 time.sleep(2)
-the_user_url = "https://www.instagram.com/sanjana.n_/"
+the_user_url = "https://www.instagram.com/therock"
 browser.get(the_user_url)
 
 post_url_pattern = "https://www.instagram.com/p/<post-slug-id>"
